@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #a5c2b2;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.678);
+    text-align: center;
+    width: 300px; 
+    border: 2px solid rgb(255, 255, 255, 5);
+    background: transparent;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+    text-align: left;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #070606;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #030202;
+    font-weight: 500;
+    margin-left: 7px;
+    transition: .5s;
+}
+
+button:hover {
+    background-color: #428563;
+}
+
+.button-animation {
+    animation: scaleIn 0.5s ease-in-out;
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0.8);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+    .LGO:hover{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+        text-decoration: underline;
+    
+}
+
+  

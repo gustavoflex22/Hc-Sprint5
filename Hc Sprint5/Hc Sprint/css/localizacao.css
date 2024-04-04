@@ -1,0 +1,37 @@
+.local{
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.local h1{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+#mapa{
+  margin-top: 1rem;
+  box-shadow: 6px 6px 10px #00000065;
+  text-align: center;
+  justify-content: center;
+  width: 700px;
+  height: 750px;
+}
+
+@media screen and (max-width: 775px) {
+  #mapa{
+    width: 500px;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #mapa{
+    width: 350px;
+    height: 350px;
+  }
+}

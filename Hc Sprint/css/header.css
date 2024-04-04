@@ -1,0 +1,172 @@
+header {
+  background-color: #009581;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 5rem;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+/*Logo*/
+.logo-imagem{
+  width: 7.8rem;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-item {
+  margin: 0 15px;
+  
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.15rem;
+  color: white;
+  font-weight: 400;
+  
+  
+}
+
+
+
+
+
+.btnLogin-popup {
+  width: 130px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid #fff;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1em;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 40px;
+  transition: .5s;
+}
+
+.btnLogin-popup:hover {
+  background: #fff;
+  color: #162938
+}
+
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+.nav-bar a:hover {
+  opacity: 0.7;
+}
+
+.icon{
+  width: 2.5rem;
+  color: black;
+}
+
+#btnLogin-popup {
+  width: 130px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid #ffffff;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1em;
+  color: #fafafa;
+  font-weight: 500;
+}
+
+
+/*Tirando o menu hamburguer da versão desktop*/
+
+.mobile-menu-icon {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+@media screen and (max-width: 850px) {
+  .nav-bar {
+      padding: 1.5rem 4rem;
+  }
+  .nav-item {
+      display: none;
+  }
+  .mobile-menu-icon {
+      display: block;
+  }
+  .mobile-menu-icon button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+  }
+  .mobile-menu ul {
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 1rem;
+  }
+
+  .mobile-menu .nav-item {
+      display: block;
+      padding-top: 1.2rem;
+  }
+  .open {
+      display: block;
+  }
+  #btnLogin-popup2 {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fafafa;
+    font-weight: 500;
+  }
+
+}
+
+.banner {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+#img-banner {
+max-width: 100%;
+height: auto;
+display: block;
+}
+#img-banner3 {
+  margin-top: 1rem;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
